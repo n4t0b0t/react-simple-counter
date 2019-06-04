@@ -1,0 +1,27 @@
+#app {
+  text-align: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.counter {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.display {
+  width: 100px;
+  height: 80px;
+  margin: 1.5rem;
+  line-height: 80px;
+}
+
+.negative {
+  background: rgb(238, 97, 97);
+}
+
+.positive {
+  background: rgb(124, 124, 245);
+}
